@@ -1205,3 +1205,48 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+/*
+    HTML VIDEO AS BACKGROUND:
+*/
+.twp-video-background {
+    background: #000;
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #67B0D1CC;
+    color: #67B0D1CC;
+}
+.twp-video-foreground,
+.twp-video-background video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    background-color: #67B0D1CC;
+    color: #67B0D1CC;
+    object-fit: contain;
+}
+
+.twp-video-foreground{
+    padding-bottom: 56.25%;
+    box-sizing: border-box;
+    background-color: #67B0D1CC;
+    color: #67B0D1CC;
+}
+
+.twp-video-layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    box-sizing: border-box; 
+    background-color: #67B0D1CC;
+    color: #67B0D1CC;
+}
